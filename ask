@@ -1,0 +1,17 @@
+def menu():
+  print("Mengira ispadu")
+  print("1.sfera")
+  print("2.box")
+  print("3.piramid")
+  pilihan=int(input("Masukkan nombor pilihan [1 hingga 5]:"))
+  return pilihan
+
+def sfera():
+  jejari=float(input("Maskkan nilai jejari"))
+  isipadu=4/3*3.142*jejari*jejari*jejari
+  print("Isipadu sfera adalaj: ",round(isipadu,3))
+  num=int(random()*10)
+  for i in range(0,num):
+    xpos=random()*10
+    ypos=random()*10
+    zpos=random()*10
